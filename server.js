@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 
 const app = express();
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://qpixel-3e00e.web.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
